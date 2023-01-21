@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vmax;
+    height: 100%;
+    background-image: url(nick-nice-gPm8h3DS1s4-unsplash.jpg);
+    background-size: 400px;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    background-image: url(123456789012.png);
+    background-size: 150PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 10%;
+    transition: 0.2s;
+    box-shadow: -3px -3px 7px #ffffff73,
+                  2px 2px 5px rgba(94, 104, 121, 0.288);
+  }
+
+.logo{
+    position:absolute;
+    left: 15px;
+}
+
+.logo .fa-user-astronaut{
+
+    font-size: 24px;
+    color:white;
+}
+
+.main-navigation{
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+  .main-navigation .menuitem{
+    display: flex;
+    flex-grow: 50px;
+    padding-left  :40px;
+    padding-right: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    border-right: 1.5px solid white;
+  }
+  .main-navigation li:hover a{
+    color: #dcfd35;
+  }
+
+
+
+
+
+
+
+  .home {
+    position:relative;
+    width: 100vmax;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(photo_2022-11-25_06-03-09.jpg);
+    background-size: 1250px;
+    background-attachment:fixed;
+    background-position: center;
+    flex-direction: column;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home{
+        background-attachment: scroll;
+    }
+}
+
+  .home .homebase{
+    position:relative;
+    width: 100vmax;
+    display: flex;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home .homebase h5{
+    color:white;
+    font-size: 30px;
+  }
+
+  .home .homebase h1{
+    color:white;
+    font-size: 85px;
+    position: relative;
+    right: -10px;
+  }
+  .home .intro-position{
+    position: relative;
+    width: 100vmax;
+    font-size: larger;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .home .intro-position .introitem{
+    padding-left : 20px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+    border-left: 1px solid white;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.2);
+
+  }
+.home .intro-social{
+    position: absolute;
+    display: flex;
+    width: 100vmax;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+.home .intro-social li{
+    padding: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.about{
+  bottom: 20px;
+  position: relative;
+  width: 100vmax;
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .quote{
+  position: absolute;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.about .profilewhole{
+  font-size: 17px;
+  position: relative;
+  margin-bottom: -150px;
+  margin-left: 70px;
+  color: aliceblue;
+}
+
+.about .skillwhole{
+  position: relative;
+  top: 120px;
+  right: 90px;
+  width: 350px;
+  margin-bottom: 60px;
+  font-size: 17px;
+  color: aliceblue;
+
+}
+.about .skill-bars{
+  position: relative;
+  bottom: -90px;
+  left: -90px;
+  font-size: 20px;
+  color: azure;
+}
+
+.about .skill-bars li{
+  padding-top: 15px;
+  border-top:4px solid white ;
+}
+
+
+
+
+
+
+
+.resume-timeline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 850px;
+  width: 100vmax;
+  position: relative;
+  top: -50px;
+}
+
+.resume-timeline .line{
+  width: 400px;
+  height: 1px;
+  border: solid 0.2px  rgba(246, 245, 245, 0.5);
+  transform: rotate(90deg);
+  position: relative;
+  bottom: -450px;
+  right: 57px;
+  border-style:dotted;
+}
+
+.resume-timeline .resume{
+  position: relative;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.timeline-block{
+  display: flex;
+}
+
+.timeline-header{
+  position: relative;
+  right: -0px;
+  bottom: -65px;
+  color: aliceblue;
+}
+.timeline-header h3{
+  position: relative;
+  right: -0px;
+  bottom: 0px;
+  color: aliceblue;
+}
+
+.timeline-content{
+  position: relative;
+  left: 120px;
+  padding: 50px;
+  color: aliceblue;
+}
+
+.timeline-content h4{
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.timeline-content p{
+  padding-top: 15px;
+}
+
+.timeline-ico i{
+  position: relative;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  left:250px ;
+  top: 59px;
+  color: aliceblue;
+}
+
+
+.portfoliobtndiv{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.portfoliobtn{
+  font-size: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  margin-left: 43%;
+  margin-right: 43%;
+  border-radius: 35px;
+  transition: ease-in 0.3s;
+  background-color: black;
+  color: azure;
+  border: 1px solid #dcfd35;
+  cursor: pointer;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.portfoliobtn:hover{
+  border-radius: 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+
+
+
+
+.cardbody{
+  background-size: 100%;
+  width: 100vmax;
+  position: relative;
+  bottom: 50px;
+  padding: 25px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;  
+  max-width: 916px;
+  width: calc(100% - 20px);
+}
+
+#cards:hover > .card::after {
+  opacity: 1;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  position: relative;
+  width: 300px;  
+}
+
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card::before,
+.card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.06),
+    transparent 40%
+  );
+  z-index: 3;
+}
+
+.card::after {  
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.4),
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+.card > .card-content {
+  background-color: var(--card-color);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  inset: 1px;
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+
+h1, h2, h3, h4, span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+i {  
+  color: white;
+}
+
+.card-image {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-image > i {
+  font-size: 6em;
+  opacity: 0.25;
+}
+
+.card-info-wrapper {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+
+.card-info {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.card-info > i {  
+  font-size: 1em;
+  height: 20px;
+  line-height: 20px;
+}
+
+.card-info-title > h3 {
+  font-size: 1.1em;
+  line-height: 20px;
+}
+
+.card-info-title > h4 {
+  color: white;
+  font-size: 0.85em;
+  margin-top: 8px;
+}
+
+
+@media(max-width: 1000px) {
+  body {
+    align-items: flex-start;  
+    overflow: auto;
+  }
+  
+  #cards {    
+    max-width: 1000px;
+    padding: 10px 0px;
+  }
+  
+  .card {
+    flex-shrink: 1;
+    width: calc(50% - 4px);
+  }
+}
+
+@media(max-width: 500px) {
+  .card {
+    height: 180px;
+  }
+  
+  .card-image {
+    height: 80px;  
+  }
+  
+  .card-image > i {
+    font-size: 3em;
+  }
+    
+  .card-info-wrapper {
+    padding: 0px 10px;
+  }
+  
+  .card-info > i { 
+    font-size: 0.8em; 
+  }
+  
+  .card-info-title > h3 {
+    font-size: 0.9em;
+  }
+
+  .card-info-title > h4 {
+    font-size: 0.8em;
+    margin-top: 4px;
+  }
+}
+
+@media(max-width: 320px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+.contactme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  position: relative;
+  left: 140px;
+
+}
+
+.location{
+  padding: 50px;
+  font-size: 20px;
+  position: relative;
+  left: -170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.Email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  position: relative;
+  right:140px;
+  font-size: 20px;
+}
+
+.telegram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  position: relative;
+  color: aliceblue;
+
+}
+
+.footersocial .footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  padding-right: 50px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.footersocial .footer-social li{
+  padding-right: 20px;
+  color: aliceblue;
+}
+
+.footercr .copyright{
+  left: 70px;
+  position: relative;
+  color: aliceblue;
+}
+
+#go-top{
+  position: relative;
+  left: -390px;
+  color: white;
+  border: 2px solid white;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+.visitor{
+  display: flex;
+  gap: 10px;
+  position: relative;
+  left: -35px;
+  border:1px solid white;
+  padding: 2px;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.visitor h3{
+  color: #dcfd35;
+  font-weight: -300;
+}
+
+.counter{
+  size: 1px;
+}
