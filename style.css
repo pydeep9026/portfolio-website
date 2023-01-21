@@ -73,11 +73,6 @@
   }
 
 
-
-
-
-
-
   .home {
     position:relative;
     width: 100vmax;
@@ -93,11 +88,15 @@
 
   }
 
-  @media only screen and (max-width: 600px) {
-    .home{
+
+@media only screen and (max-width: 600px) {
+    body {
         background-attachment: scroll;
     }
 }
+
+
+
 
   .home .homebase{
     position:relative;
