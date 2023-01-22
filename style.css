@@ -520,6 +520,16 @@ i {
   }
 }
 
+@media(max-width: 500px) {
+  .home{
+    background-position-x: 1050px;
+    background-position-y: 1500px;
+    width: 110vh;
+  }
+}
+
+
+
 
 
 .contactme{
