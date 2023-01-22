@@ -526,10 +526,15 @@ i {
     background-position-y: 1500px;
     width: 110vh;
   }
+  .profilewhole{
+    left: 40px;
+    bottom: -35px;
+  }
+
+  .cardbody{
+    left: 30px;
+  }
 }
-
-
-
 
 
 .contactme{
@@ -599,38 +604,18 @@ i {
 }
 
 .footercr .copyright{
-  left: 70px;
+  left:220px;
   position: relative;
   color: aliceblue;
 }
 
 #go-top{
   position: relative;
-  left: -390px;
+  left: -250px;
   color: white;
   border: 2px solid white;
   padding-left: 15px;
   padding-top: 2px;
   padding-right: 15px;
   border-radius: 15px;
-}
-
-.visitor{
-  display: flex;
-  gap: 10px;
-  position: relative;
-  left: -35px;
-  border:1px solid white;
-  padding: 2px;
-  border-radius: 7px;
-  font-size: 16px;
-}
-
-.visitor h3{
-  color: #dcfd35;
-  font-weight: -300;
-}
-
-.counter{
-  size: 1px;
 }
